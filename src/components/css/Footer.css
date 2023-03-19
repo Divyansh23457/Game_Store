@@ -1,0 +1,35 @@
+.mainframe{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.125);  
+    border-radius: 40px;
+    padding : 20px 40px 20px 20px;
+    filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    height: 100%;
+    width : 70%;
+    margin  : 0 auto;
+    margin-top : 2700px;
+}
+
+.About{
+    display: flex;
+    flex-direction: row;
+}
+
+.connect-link{
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color : white;
+    margin : auto 30px ;
+}
+
+.img-link{
+    margin: 15px;
+}
