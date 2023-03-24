@@ -6,7 +6,7 @@ function GamesCard(props) {
         backgroundImage : `url(${props.imgg})`,
         backgroundPosition : "center",
         backgroundSize: "cover",
-        height : "  300px",
+        height : "300px",
         width : "100%",
         margin : "10px",
         borderRadius: "15px",
