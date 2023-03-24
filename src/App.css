@@ -6,6 +6,25 @@
     /* position: absolute; */
 }
 
+
+@media (max-width: 768px) {
+    body {
+      zoom: 50%;
+      -moz-transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+      -o-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+  }
+@media (max-width: 768px) {
+    body {
+      zoom: 50%;
+      -moz-transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+      -o-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+  }
 .ps5{
     margin-top : 100px;
 }
